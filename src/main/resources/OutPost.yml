@@ -1,0 +1,87 @@
+#
+#      Author by Weesli
+#
+
+
+options:
+  outpost-cost: 1500
+  max-outpost-limit-per-player: 1
+  # with day format
+  outpost-start-time: 30
+
+menus:
+  main:
+    title: "&8Verify your action"
+    size: 27
+    item-settings:
+      slot: 13
+      title: "&eBuy this outpost"
+      material: GRASS_BLOCK
+      custom-model-data: 0
+      lore:
+        - "&7"
+        - "&7Do you really want to take the field?"
+        - "&7Cost: &f%cost%"
+        - "&7x: &f%x% &7z: &f%z%"
+        - "&7Farmer efficiency: &f%farm_count%"
+        - "&7"
+        - "&7Click and buy this area!"
+  outposts:
+    title: "&8Your outposts"
+    size: 54
+    item-settings:
+      title: "&eOutpost &f#<count>"
+      material: GRASS_BLOCK
+      custom-model-data: 0
+      lore:
+        - "&7"
+        - "&7Location: &f%x% &7x: &f%z%"
+        - "&7Owner: &f%owner%"
+        - "&7Farmer efficiency: &f%farm_efficiency%"
+        - "&7"
+        - "&7Click and manage this outpost!"
+  settings:
+    title: "&8OutPost settings"
+    size: 27
+    items:
+      info:
+        slot: 4
+        title: "&eInformation"
+        material: PAPER
+        custom-model-data: 0
+        lore:
+          - "&7"
+          - "&7Outpost owner : &f%owner%"
+          - "&7Countdown: &f%countdown%"
+          - "&7Farmer efficiency: &f%farm_efficiency%"
+          - "&7"
+      upgrade-time:
+        slot: 11
+        title: "&eUpgrade time"
+        material: BEACON
+        custom-model-data: 0
+        lore:
+          - "&7"
+          - "&7Cost : &f%cost%"
+          - "&7"
+          - "&7Click and upgrade time!"
+  verify-menu:
+    title: "&8Are you sure?"
+    size: 9
+    children:
+      confirm:
+        title: "&eYes"
+        material: GREEN_WOOL
+        custom-model-data: 0
+        lore:
+          - "&8"
+          - "&aClick to confirm your action!"
+        slot: 2
+      deny:
+        title: "&cNo"
+        material: RED_WOOL
+        custom-model_data: 0
+        lore:
+          - "&8"
+          - "&aClick to cancel your action!"
+        slot: 6

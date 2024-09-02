@@ -1,0 +1,9 @@
+max-outpost: '&cYou have already claimed the maximum number of outposts allowed'
+not-enough-money: "&cInsufficient balance!"
+outpost-bought: "&aOutpost created!"
+not-suitable: "&cThis area is already taken!"
+not-claiming-outpost: "&cYou do not own this area or have an outpost"
+unclaimed-outpost: "&cOutpost removed"
+no-claim: "&cHey! You haven't a claim!"
+no-create-a-claim-in-outpost: "&cHey! You can't create a claim inside an outpost!"
+time-upgraded: "&cOutpost time extended!"
